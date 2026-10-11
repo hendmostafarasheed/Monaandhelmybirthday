@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08090d">
+  <title>Mona Zaki & Ahmed Helmy — Invitation</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <main>
+    <section id="coverScreen" class="screen active" aria-label="Invitation cover">
+      <img class="cover-art" src="cover.png" alt="Mona Zaki and Ahmed Helmy invitation cover">
+      <button id="openInvitation" class="open-hit-area" aria-label="Open invitation" title="Open invitation"></button>
+    </section>
+    <section id="inviteScreen" class="screen" aria-label="Birthday invitation">
+      <img class="invitation-art" src="invitation.png" alt="Birthday celebration invitation">
+    </section>
+  </main>
+  <canvas id="glitterCanvas" aria-hidden="true" hidden></canvas>
+  <audio id="birthdayMusic" src="birthday-song.mp3" preload="auto" loop></audio>
+  <button id="soundToggle" class="sound-toggle" hidden>♫ Pause music</button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
